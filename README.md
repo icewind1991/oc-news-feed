@@ -5,7 +5,7 @@ Export items in the ownCloud news app as rss feed
 # configuration
 
 `config.json`
-```json
+```js
 {
     "port": 3000, // the port this program listens on
 	"endpoint": "https://icewind.nl/owncloud", // the path where ownCloud is install
