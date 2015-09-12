@@ -1,0 +1,18 @@
+{
+  "name": "oc-news-feed",
+  "version": "0.1.0",
+  "description": "Export items in the ownCloud news app as rss feed",
+  "author": "Robin Appelman <robin@icewind.nl>",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir build",
+    "start": "node --harmony build/app.js"
+  },
+  "dependencies": {
+    "koa": "^1.0.0",
+    "oc-news-js": "^0.1.1",
+    "rss": "^1.1.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23"
+  }
+}

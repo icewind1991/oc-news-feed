@@ -1,0 +1,10 @@
+{
+	"stage": 1,
+	"blacklist": [
+		"es6.classes",
+		"regenerator"
+	],
+	"optional": [
+		"asyncToGenerator"
+	]
+}

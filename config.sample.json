@@ -1,0 +1,12 @@
+{
+	"port": 3000,
+	"endpoint": "http://example.com/owncloud",
+	"username": "test",
+	"password": "test",
+	"folderId": 0,
+	"feedOptions": {
+		"title": "My Feeds",
+		"feed_url": "http://example.com/feed",
+		"site_url": "http://example.com"
+	}
+}
